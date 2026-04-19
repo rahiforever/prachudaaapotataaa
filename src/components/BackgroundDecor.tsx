@@ -9,7 +9,7 @@ export function BackgroundDecor() {
   const ySlow = useTransform(scrollY, [0, 900], [0, reduce ? 0 : 140]);
   const yFast = useTransform(scrollY, [0, 900], [0, reduce ? 0 : -90]);
   const rotate = useTransform(scrollY, [0, 900], [0, reduce ? 0 : 18]);
-
+//for deployement
   return (
     <div
       className="pointer-events-none fixed inset-0 z-[1] overflow-hidden"
